@@ -1,0 +1,10 @@
+.list-music {
+    display: grid;
+    grid-template-columns: 0.5fr 4fr 2fr 1fr;
+    width: 100%;
+    padding: 1rem 5rem;
+}
+.icon{
+    font-size: 2rem;
+    margin-left: 4rem;
+}

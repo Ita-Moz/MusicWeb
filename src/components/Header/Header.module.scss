@@ -1,0 +1,36 @@
+.wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container{
+    display: flex;
+    gap: 2rem;
+}
+.all-music,.discover,.album{
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.search{
+    background-color: hsla(0,0%,100%,0.1);
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+
+}
+.icon{
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.input-search{
+    width: 400px;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid transparent;
+    font-family: var(--font-family);
+    color: var(--white);
+    font-size: 1.6rem;
+}

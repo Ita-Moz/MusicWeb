@@ -1,0 +1,18 @@
+.music {
+    &:hover {
+        background-color: hsla(0, 0%, 100%, 0.1);
+        cursor: pointer;
+    }
+}
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 4fr 2fr 1fr;
+    width: 100%;
+    padding: 1rem 5rem;
+    border-bottom: 2px solid var(--gray);
+    text-transform: uppercase;
+    color: var(--text-secondary);
+}
+.active-song {
+    background-color: hsla(0, 0%, 100%, 0.1);
+}
