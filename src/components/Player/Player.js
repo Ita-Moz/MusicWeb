@@ -15,6 +15,9 @@ function Player() {
     const handleClickPre = () => {
         handleSetSong(song.id - 1);
     };
+    const handleEnd = () => {
+        handleSetSong(song.id + 1);
+    };
     return (
         <div>
             <AudioPlayer
@@ -25,6 +28,7 @@ function Player() {
                 showJumpControls={true}
                 onClickNext={handleClickNext}
                 onClickPrevious={handleClickPre}
+                onEnded={handleEnd}
             />
         </div>
     );

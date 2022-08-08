@@ -1,10 +1,23 @@
+/*Ipad ngang(1024 x 768)*/
+@media only screen and (max-width: 1024px){
+    .left{
+        display: none;
+    }
+}
+/*Ipad dọc(768 x 1024)*/
+@media only screen and (max-width: 768px){
+    .player{
+        width: 100%;
+        height: 88px;
+    }
+}
+
 .wrapper {
     display: flex;
     line-height: 1.5;
     font-size: 1.4rem;
     font-weight: 400;
     color: var(--white);
-    height: 100vh;
 }
 
 .left {
@@ -27,5 +40,7 @@
 }
 
 .player{
+    width: 100%;
     height: 88px;
+    
 }

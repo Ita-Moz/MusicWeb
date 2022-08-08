@@ -26,11 +26,11 @@ function Listmusic() {
                 <div className={cx('download')}>download</div>
             </div>
             {DataSongs.map((item, index) => (
-                <div
+                <div key={index}
                     className={cx('music', { 'active-song': idSong === item.id })}
                     onClick={() => handlePlayMusic(item.id)}
                 >
-                    <Itemmusic key={index} name={item.name} author={item.author} index={index+1} />
+                    <Itemmusic name={item.name} author={item.author} index={index+1} />
                 </div>
             ))}
         </div>
