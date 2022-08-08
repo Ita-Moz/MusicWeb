@@ -1,10 +1,20 @@
+@media screen and (min-width: 1025px) {
+    .list-music {
+        grid-template-columns: 0.5fr 4fr 2.5fr 0.5fr;
+        padding: 1rem 5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .list-music {
+        grid-template-columns: 0.5fr 4fr 2.5fr 0.5fr;
+        padding: 1.2rem 1rem;
+    }
+}
+
 .list-music {
     display: grid;
-    grid-template-columns: 0.5fr 4fr 2fr 1fr;
     width: 100%;
-    padding: 1rem 5rem;
 }
-.icon{
+.icon {
     font-size: 2rem;
-    margin-left: 4rem;
 }

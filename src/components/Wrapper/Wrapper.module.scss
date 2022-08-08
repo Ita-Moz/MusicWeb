@@ -4,10 +4,15 @@
         display: none;
     }
 }
-/*Ipad dọc(768 x 1024)*/
+/*cho màn hình có width <= 768px*/
 @media only screen and (max-width: 768px){
     .wrapper{
         height: 100vh;
+    }
+    .player{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
     }
 }
 
@@ -20,10 +25,11 @@
 }
 
 .left {
-    width: 20%;
+    width: 20vw;
 }
 
 .right {
+    width: 80vw;
     flex: 1;
     background-color: var(--bg-color);
     height: 100vh;
@@ -31,6 +37,7 @@
 
 .header {
     height: 70px;
+    width: 100%;
 }
 
 .list-music {

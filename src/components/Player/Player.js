@@ -28,7 +28,7 @@ function Player() {
                 showJumpControls={true}
                 onClickNext={handleClickNext}
                 onClickPrevious={handleClickPre}
-                onEnded={handleEnd}
+                onEnded={handleEnd} 
             />
         </div>
     );
