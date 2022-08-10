@@ -24,11 +24,12 @@ function Player() {
                 className={cx('playing')}
                 src={song.url}
                 volume={0.5}
+                autoPlay={true}
                 showSkipControls={true}
                 showJumpControls={true}
                 onClickNext={handleClickNext}
                 onClickPrevious={handleClickPre}
-                onEnded={handleEnd} 
+                onEnded={handleEnd}
             />
         </div>
     );
