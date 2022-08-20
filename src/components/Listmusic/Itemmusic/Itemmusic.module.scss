@@ -11,5 +11,8 @@
 @media screen and (max-width: 768px) {
     .list-music {
         padding: 1rem 2rem;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow-x: hidden;
     }
 }
